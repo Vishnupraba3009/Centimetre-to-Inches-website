@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CmToinch</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="form">
+        <form>
+        <h2>Centimetre To Inches Converter</h2>
+        <div class="input">
+            <input type="text" id="input" placeholder="Enter Number in Cm">
+        </div>
+        <div class="button">
+           <button type="submit" onclick="Convert(event)">Click Here To Convert</button>
+        </div>
+        <div id="result">
+
+        </div>
+    </form>
+    </div>
+    <script>
+        function Convert(){
+            event.preventDefault();
+            let cmval=Number(document.getElementById("input").value);
+            let inchval=cmval/2.54;
+            let resultid=document.getElementById("result");
+            resultid.innerHTML=inchval;
+        }
+    </script>
+</body>
+</html>

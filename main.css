@@ -1,0 +1,52 @@
+/* LET THE STYLING BEGIN */
+body{
+    background-color: #442220;
+}
+.form{
+    background-color: #809848;
+    width:400px;
+    height:400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding:50px 15px;
+}
+.form{
+    h2{
+       color: #2E0014;
+    }
+}
+.form .input{
+    margin-top: 70px;
+
+}
+.form input{
+    padding:15px 10px;
+    width:80%;
+    box-sizing: border-box;
+    border: 2px solid #B5DEAD;
+    border-radius: 8px;
+}
+.form .button{
+    margin-top: 70px;
+}
+.form button{
+    padding:15px 10px;
+    width:80%;
+    box-sizing: border-box;
+    border: 2px solid #B5DEAD;
+    border-radius: 8px;
+    color: #2E0014;
+    font-weight: 800;
+}
+
+.form #result{
+    font-weight: 600;
+    margin-top: 70px;
+}
+input:focus{
+    background-color:rgb(195, 175, 213);
+}
+button:focus{
+    background-color:rgb(195, 175, 213);
+}
